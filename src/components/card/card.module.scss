@@ -1,0 +1,66 @@
+.root {
+    border-radius: 30px;
+    border: 3px solid #837878;
+    display: flex;
+}
+
+.card {
+    width: 200px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    display: block;
+    height: 170px;
+    align-content: space-evenly;
+    align-items: start;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    border-radius: inherit;
+}
+
+.employee {
+    width: 40px;
+    height: 40px;
+    border-radius: 200px;
+    align-self: center;
+}
+
+.checkmark {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    align-self: end;
+}
+
+.cardTitle {
+    padding: 0px 10px 0px 0px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin: 28px 0px 0px;
+}
+
+.cardP {
+    margin: 1px 1px 3px;
+    padding: 1px 1px 1px 5px;
+}
+
+.icons {
+    width: 35px;
+    height: 35px;
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 8px;
+    padding-left: 3px;
+}
+
+.paragraph {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    flex-shrink: 0;
+    flex-basis: 4px;
+    position: relative;
+    bottom: 25px;
+}

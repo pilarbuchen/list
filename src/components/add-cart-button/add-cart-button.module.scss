@@ -1,0 +1,19 @@
+.root {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+
+.addButton {
+    width: 35px;
+    height: 35px;
+    padding: 0px;
+    margin: 15px;
+}
+
+.buttonText {
+    margin-left: 0px;
+    margin-right: 20px;
+}

@@ -1,0 +1,40 @@
+.root {
+    padding: 10px;
+    border-top: 15px solid #BFF5D7;
+    border-radius: 10px;
+    border-right: 1px solid #CB2626;
+    background-color: #FFFFFF;
+}
+
+.cardContainer {
+    flex-direction: column;
+    display: grid;
+    align-items: end;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 1px;
+    grid-auto-flow: row;
+    gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    justify-items: center;
+}
+
+.title {
+    margin: 0px 0px 10px;
+    align-self: end;
+}
+
+.line {}
+
+.donroot {
+    border-top: 15px solid #BFD3F5;
+}
+
+.testdoneroot {
+    border-right: 0px solid rgb(203, 38, 38);
+}
+
+.to-doroot {
+    border-top: 15px solid #BD8BEE;
+}
