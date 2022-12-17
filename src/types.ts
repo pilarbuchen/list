@@ -3,8 +3,8 @@ export interface Photo {
 }
 
 export interface Card {
+    user: Photo;
     className?: string;
     cardTitle: string;
     cardPargraph: string;
-    user: Photo
 }
