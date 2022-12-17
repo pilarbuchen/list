@@ -1,11 +1,13 @@
 
 import styles from './App.module.scss';
-import { Column } from './components/column/column';
+import { CardContainer } from './components/card-container/card-container3';
 
 function App() {
     return (
         <div className={styles.App}>
-            <Column />
+            <CardContainer color="orange" columnTitle="To-Do"></CardContainer>
+            <CardContainer color="red" columnTitle="Doing" />
+            <CardContainer color="blue" columnTitle="Done" />
         </div>
     );
 }
