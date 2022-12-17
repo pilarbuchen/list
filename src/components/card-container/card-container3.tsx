@@ -1,20 +1,23 @@
 import styles from './card-container.module.scss';
 import { AddCartButton } from '../add-cart-button/add-cart-button';
 import CardList from '../card-list/card-list';
-
+import { Card as CommentType } from '../../types'
 
 export interface CardContainerProps {
     className?: string;
     color: string;
     columnTitle: string;
+    cardlist: React.ReactNode
+    cards: CommentType[]
 }
 
-export const CardContainer = ({ className, color, columnTitle }: CardContainerProps) => {
+export const CardContainer = ({ className, color, columnTitle, cardlist, cards }: CardContainerProps) => {
     return <div className={`${styles.root} ${className} `} style={{ borderTop: `10px solid ${color}` }}>
         <div className={styles.title}>
             <h1 className={styles.title}>{columnTitle}</h1>
         </div>
         <div className={styles.cardContainer}>
+        {cardlist=<CardList cards={cards}/>}
             <CardList cards={[{
                 cardPargraph: 'Test 1',
                 cardTitle: 'Test 1',
