@@ -10,7 +10,7 @@ const Card = ({ className, cardPargraph, cardTitle, user: {photo} }: CardProps) 
     return <div className={`${styles.root} ${className}`}>
         <div className={styles.imageContainer}>
             <img src={checkMark} />
-            <Photo src={photo}/>
+            <Photo src={photo} />
         </div>
         <div className={styles.card}>
             <h2 className={styles.cardTitle}>{cardTitle}</h2>
