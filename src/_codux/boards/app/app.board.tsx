@@ -3,9 +3,9 @@ import App from '../../../App';
 
 export default createBoard({
     name: 'App',
-    Board: () => <App />,
+    Board: () =>
+        <App />,
     environmentProps: {
-        canvasBackgroundColor: '#ed7c7c',
-        windowWidth: 1676
+        canvasBackgroundColor: '#ffffff', windowBackgroundColor: '#fdf7f7',
     }
 });

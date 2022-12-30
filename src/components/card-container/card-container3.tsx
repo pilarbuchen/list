@@ -1,7 +1,7 @@
 import styles from './card-container.module.scss';
 import { AddCartButton } from '../add-cart-button/add-cart-button';
 import CardList from '../card-list/card-list';
-import { Card  } from '../../types'
+import { Card } from '../../types'
 import { useState } from 'react';
 
 export interface CardContainerProps {
@@ -19,7 +19,6 @@ export const CardContainer = ({ className, color, columnTitle, cards }: CardCont
         </div>
         <div className={styles.cardContainer}>
             <CardList cards={cards} />
-            <AddCartButton />
-        </div>
+            <AddCartButton /></div>
     </div>;
 };
