@@ -9,6 +9,7 @@
     border: 0px solid black;
     flex-direction: column;
     flex-wrap: wrap;
+    overflow: auto;
 }
 
 .App-logo {
@@ -54,8 +55,8 @@
 .cardFlexContainer {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     order: 0;
     margin: 20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
