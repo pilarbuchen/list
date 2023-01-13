@@ -3,7 +3,7 @@ import { CardContainer } from '../../../components/card-container/card-container
 
 export default createBoard({
     name: 'CardContainer - Doing',
-    Board: () => <CardContainer color="rgba(199, 133, 167, 0.8)" columnTitle="Doing" cards={[{
+    Board: () => <CardContainer color="rgba(214, 54, 136, 0.8)" columnTitle="Doing" cards={[{
         cardPargraph: 'test',
         cardTitle: 'hello',
         user: {

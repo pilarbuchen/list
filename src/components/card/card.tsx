@@ -15,7 +15,7 @@ const Card = ({ className, cardPargraph, cardTitle, user: { photo } }: CardProps
             <img src={checkMark} />
             <Photo src={photo} /></div>
         <div className={styles.card}>
-            <h2 className={styles.cardTitle}>{cardTitle}</h2>
+            <h2 className={`${styles.cardTitle} ${styles.test}`}>{cardTitle}</h2>
             <h6 className={styles.paragraph}>{cardPargraph}</h6></div></div>;
 };
 

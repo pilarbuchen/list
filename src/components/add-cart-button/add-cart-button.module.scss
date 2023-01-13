@@ -4,6 +4,12 @@
     width: 200px;
     flex-wrap: wrap-reverse;
     justify-content: space-evenly;
+
+    &:active {
+        background-color: #C52323;
+    }
+
+    &:active:hover {}
 }
 
 .addButton {

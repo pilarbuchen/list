@@ -6,5 +6,5 @@ export interface Card {
     user: Photo;
     className?: string;
     cardTitle: string;
-    cardPargraph: string;
+    cardPargraph: string | number | boolean | string[] | object 
 }

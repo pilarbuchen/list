@@ -2,6 +2,11 @@
     border-radius: 30px;
     border: 1px solid #0C0C0C;
     display: flex;
+    background-color: #FFFFFF;
+
+    &:hover {
+        background-color: #9B0E0E;
+    }
 }
 
 .card {
@@ -30,9 +35,9 @@
     flex-grow: 0;
     flex-shrink: 1;
     margin: 28px 0px 0px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
+    font-size: 30px;
 }
 
 
@@ -61,3 +66,5 @@
     font-weight: 400;
     font-size: 15px;
 }
+
+.test {}

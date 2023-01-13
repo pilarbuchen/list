@@ -1,0 +1,17 @@
+[  
+    {
+        "name": "MUI Components",
+        "components": [
+            {
+                "filePath": "@mui/material",
+                "exportName": "Button",
+                "name": "Button"
+            },
+            {
+                "filePath": "@mui/material",
+                "exportName": "Accordion",
+                "name": "Accordion"
+            }
+        ]
+    }
+]  

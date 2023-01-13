@@ -3,7 +3,7 @@ import CardList from '../../../components/card-list/card-list';
 import Card from '../../../components/card/card';
 
 export default createBoard({
-    name: 'CardList - ShotList 1',
+    name: 'CardList - ShotList',
     Board: () => <CardList cards={[{
         cardPargraph: 'Test 3',
         cardTitle: 'Test 3',

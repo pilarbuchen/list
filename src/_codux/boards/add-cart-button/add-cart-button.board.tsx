@@ -3,5 +3,5 @@ import { AddCartButton } from '../../../components/add-cart-button/add-cart-butt
 
 export default createBoard({
     name: 'AddCartButton',
-    Board: () => <AddCartButton></AddCartButton> 
+    Board: () => <AddCartButton></AddCartButton>
 });

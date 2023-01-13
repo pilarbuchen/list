@@ -3,7 +3,7 @@ import { memo } from 'react';
 import userPhoto from '../../assets/user.svg'
 
 interface PhotoProps {
-    className?: string;
+    className?: string
     src: string;
 }
 
